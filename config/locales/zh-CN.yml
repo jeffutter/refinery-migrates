@@ -1,0 +1,29 @@
+zh-CN:
+  refinery:
+    plugins:
+      migrates:
+        title: Migrates
+    migrates:
+      admin:
+        migrates:
+          actions:
+            create_new: 建立新的 Migrate
+            reorder: 对 Migrates 重新排序
+            reorder_done: 对 Migrates 的重新排序结束
+          records:
+            title: Migrates
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Migrates yet. Click "Add New Migrate" to add your first migrate.
+            no_items_yet: 目前没有 Migrates . 点击 "Add New Migrate" 创建一个migrate.
+          migrate:
+            view_live_html: 查看 migrate 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 migrate
+            delete: 永久删除 migrate
+      migrates:
+        show:
+          other: 其他 Migrates
+  activerecord:
+    attributes:
+      'refinery/migrates/migrate':
+        title: Title

@@ -1,0 +1,27 @@
+en:
+  refinery:
+    plugins:
+      migrates:
+        title: Migrates
+    migrates:
+      admin:
+        migrates:
+          actions:
+            create_new: Add New Migrate
+            reorder: Reorder Migrates
+            reorder_done: Done Reordering Migrates
+          records:
+            title: Migrates
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Migrates yet. Click "Add New Migrate" to add your first migrate.
+          migrate:
+            view_live_html: View this migrate live <br/><em>(opens in a new window)</em>
+            edit: Edit this migrate
+            delete: Remove this migrate forever
+      migrates:
+        show:
+          other: Other Migrates
+  activerecord:
+    attributes:
+      'refinery/migrates/migrate':
+        title: Title

@@ -1,0 +1,28 @@
+es:
+  refinery:
+    plugins:
+      migrates:
+        title: Migrates
+#        article: masculino/femenino
+    migrates:
+      admin:
+        migrates:
+          actions:
+            create_new: Crear nuevo migrate
+            reorder: Reordenar migrates
+            reorder_done: Reordenación de migrates completada
+          records:
+            title: Migrates
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay migrates todavía. Pulsa en "Crear nuevo Migrate" para crear tu primer migrate.
+          migrate:
+            view_live_html: Ver este migrate como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este migrate
+            delete: Borrar este migrate para siempre
+      migrates:
+        show:
+          other: Otros migrates
+  activerecord:
+    attributes:
+      'refinery/migrates/migrate':
+        title: Title

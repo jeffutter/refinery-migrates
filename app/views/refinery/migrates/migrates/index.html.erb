@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="migrates">
+    <% @migrates.each do |migrate| %>
+      <li>
+        <%= link_to migrate.title, refinery.migrates_migrate_path(migrate) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

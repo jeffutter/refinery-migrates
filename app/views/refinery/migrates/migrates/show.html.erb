@@ -1,0 +1,27 @@
+<% content_for :body_content_title do %>
+  <%= @migrate.title %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>Title</h1>
+    <p>
+      <%=raw @migrate.title %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="migrates">
+      <% @migrates.each do |migrate| %>
+        <li>
+          <%= link_to migrate.title, refinery.migrates_migrate_path(migrate) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

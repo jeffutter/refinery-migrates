@@ -1,0 +1,27 @@
+nb:
+  refinery:
+    plugins:
+      migrates:
+        title: Migrates
+    migrates:
+      admin:
+        migrates:
+          actions:
+            create_new: Lag en ny Migrate
+            reorder: Endre rekkefølgen på Migrates
+            reorder_done: Ferdig å endre rekkefølgen Migrates
+          records:
+            title: Migrates
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Migrates enda. Klikk på "Lag en ny Migrate" for å legge til din første migrate.
+          migrate:
+            view_live_html: Vis hvordan denne migrate ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne migrate
+            delete: Fjern denne migrate permanent
+      migrates:
+        show:
+          other: Andre Migrates
+  activerecord:
+    attributes:
+      'refinery/migrates/migrate':
+        title: Title
